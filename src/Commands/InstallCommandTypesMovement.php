@@ -72,7 +72,7 @@ class InstallCommandTypesMovement extends BaseCommand
             $this->call('migrate');
             // then seed data
             $seeder = Database::seeder();
-            $seeder->call('julio101290\boilerplatestorages\Database\Seeds\BoilerplateTypesMovement');
+            $seeder->call('julio101290\boilerplatetypesmovement\Database\Seeds\BoilerplateTypesMovement');
         } catch (\Exception $e) {
             $this->showError($e);
         }
