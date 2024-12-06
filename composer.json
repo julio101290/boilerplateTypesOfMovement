@@ -1,5 +1,5 @@
 {
-    "name": "julio101290/boilerplatestorages",
+    "name": "julio101290/boilerplatetypesmovement",
     "description": "CodeIgniter4 Boilerplatestorages CRUD MVC contain name,companie,key,date start",
     "keywords": [
         "codeigniter4",
@@ -36,7 +36,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "julio101290\\boilerplatetypesofmovement\\": "src"
+            "julio101290\\boilerplatetypesmovement\\": "src"
         }
     },
     "autoload-dev": {

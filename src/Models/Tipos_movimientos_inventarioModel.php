@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplatetypesofmovement\Models;
+namespace julio101290\boilerplatetypesmovement\Models;
 
 use CodeIgniter\Model;
 

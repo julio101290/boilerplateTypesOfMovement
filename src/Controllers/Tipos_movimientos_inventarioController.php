@@ -1,9 +1,9 @@
 <?php
 
-namespace julio101290\boilerplatetypesofmovement\Controllers;
+namespace julio101290\boilerplatetypesmovement\Controllers;
 
 use App\Controllers\BaseController;
-use julio101290\boilerplatetypesofmovement\Models\{
+use julio101290\boilerplatetypesmovement\Models\{
     Tipos_movimientos_inventarioModel
 };
 use julio101290\boilerplatelog\Models\LogModel;
