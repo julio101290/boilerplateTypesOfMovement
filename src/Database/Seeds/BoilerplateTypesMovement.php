@@ -10,7 +10,7 @@ use Myth\Auth\Models\UserModel;
 /**
  * Class BoilerplateSeeder.
  */
-class BoilerplateStorages extends Seeder {
+class BoilerplateTypesMovement extends Seeder {
 
     /**
      * @var Authorize
@@ -37,10 +37,10 @@ class BoilerplateStorages extends Seeder {
 
 
         // Permission
-        $this->authorize->createPermission('storages-permission', 'Permissions for storages');
+        $this->authorize->createPermission('tipos_movimientos_inventario-permission', 'Permissions for types movement inventory');
 
         // Assign Permission to user
-        $this->authorize->addPermissionToUser('storages-permission', 1);
+        $this->authorize->addPermissionToUser('tipos_movimientos_inventario-permission', 1);
 
     }
 

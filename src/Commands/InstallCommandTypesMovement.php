@@ -10,7 +10,7 @@ use CodeIgniter\CLI\CLI;
 /**
  * Class InstallCommand.
  */
-class InstallCommandStorages extends BaseCommand
+class InstallCommandTypesMovement extends BaseCommand
 {
     /**
      * The group the command is lumped under
@@ -18,28 +18,28 @@ class InstallCommandStorages extends BaseCommand
      *
      * @var string
      */
-    protected $group = 'boilerplatestorages';
+    protected $group = 'boilerplatetypesmovement';
 
     /**
      * The command's name.
      *
      * @var string
      */
-    protected $name = 'boilerplatestorages:installstorages';
+    protected $name = 'boilerplatetypesmovement:installtypesmovement';
 
     /**
      * The command's short description.
      *
      * @var string
      */
-    protected $description = 'Db install for basic boilerplate storages data.';
+    protected $description = 'Db install for basic boilerplate types movement data.';
 
     /**
      * The command's usage.
      *
      * @var string
      */
-    protected $usage = 'boilerplatestorages:installstorages';
+    protected $usage = 'boilerplatetypesmovement:installmovement';
 
     /**
      * The commamd's argument.
@@ -72,7 +72,7 @@ class InstallCommandStorages extends BaseCommand
             $this->call('migrate');
             // then seed data
             $seeder = Database::seeder();
-            $seeder->call('julio101290\boilerplatestorages\Database\Seeds\BoilerplateStorages');
+            $seeder->call('julio101290\boilerplatestorages\Database\Seeds\BoilerplateTypesMovement');
         } catch (\Exception $e) {
             $this->showError($e);
         }
