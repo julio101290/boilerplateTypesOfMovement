@@ -52,7 +52,7 @@ class Tipos_movimientos_inventarioController extends BaseController {
         }
         $titulos["title"] = lang('tipos_movimientos_inventario.title');
         $titulos["subtitle"] = lang('tipos_movimientos_inventario.subtitle');
-        return view('julio101290\boilerplatetypesofmovement\Views\tipos_movimientos_inventario', $titulos);
+        return view('julio101290\boilerplatetypesmovement\Views\tipos_movimientos_inventario', $titulos);
     }
 
     /**

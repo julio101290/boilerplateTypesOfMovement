@@ -7,7 +7,7 @@
 <!-- Section content -->
 <?= $this->section('content') ?>
 
-<?= $this->include('modulesTipos_movimientos_inventario/modalCaptureTipos_movimientos_inventario') ?>
+<?= $this->include('julio101290\boilerplatetypesmovement\Views\modulesTipos_movimientos_inventario/modalCaptureTipos_movimientos_inventario') ?>
 
 <!-- SELECT2 EXAMPLE -->
 <div class="card card-default">
