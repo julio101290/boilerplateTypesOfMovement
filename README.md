@@ -38,14 +38,13 @@ CodeIgniter4 Boilerplatetypesmovement CRUD MVCfor the types of movement inventor
 
 # Make the Menu, Example
 
-![image](https://github.com/user-attachments/assets/ab493d62-444f-449f-8330-e87657eaa549)
+![image](https://github.com/user-attachments/assets/e4a13d86-c714-4237-b29e-adb5616b7283)
+
 
 
 # Ready
 
-![image](https://github.com/user-attachments/assets/da64c785-f4e5-4674-aee6-02dffd2e8978)
-
-![image](https://github.com/user-attachments/assets/7757cb01-89d0-49a9-a53a-b40fbb7bac62)
+![image](https://github.com/user-attachments/assets/34038a0e-533b-466e-bd4d-21ee439dad05)
 
 
 
