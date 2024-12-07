@@ -1,7 +1,7 @@
-[![Latest Stable Version](https://poser.okvpn.org/julio101290/boilerplatestorages/v/stable)](https://packagist.org/packages/julio101290/boilerplatestorages) [![Total Downloads](https://poser.okvpn.org/julio101290/boilerplatestorages/downloads)](https://packagist.org/packages/julio101290/boilerplatestorages) [![Latest Unstable Version](https://poser.okvpn.org/julio101290/boilerplatestorages/v/unstable)](https://packagist.org/packages/julio101290/boilerplatestorages) [![License](https://poser.okvpn.org/julio101290/boilerplatestorages/license)](https://packagist.org/packages/julio101290/boilerplatestorages)
+[![Latest Stable Version](https://poser.okvpn.org/julio101290/boilerplatetypesmovement/v/stable)](https://packagist.org/packages/julio101290/boilerplatetypesmovement) [![Total Downloads](https://poser.okvpn.org/julio101290/boilerplatetypesmovement/downloads)](https://packagist.org/packages/julio101290/boilerplatetypesmovement) [![Latest Unstable Version](https://poser.okvpn.org/julio101290/boilerplatetypesmovement/v/unstable)](https://packagist.org/packages/julio101290/boilerplatetypesmovement) [![License](https://poser.okvpn.org/julio101290/boilerplatetypesmovement/license)](https://packagist.org/packages/julio101290/boilerplatetypesmovement)
 
-## CodeIgniter 4 Boilerplate Storages
-CodeIgniter4 Boilerplatecompanies CRUD MVC contain capture storages for inventory, with the fields Companie, Code, Name, startOperation, Type, branchoffice etc
+## CodeIgniter 4 Boilerplate Types Inventory
+CodeIgniter4 Boilerplatetypesmovement CRUD MVCfor the types of movement inventory, with fields as companye, description, type Input/Output, and it's transfer
 
 
 ## Requirements
@@ -17,11 +17,13 @@ CodeIgniter4 Boilerplatecompanies CRUD MVC contain capture storages for inventor
 
    	composer require hermawan/codeigniter4-datatables
 
-     	composer require julio101290/boilerplatelog
+    composer require julio101290/boilerplatelog
 
 	composer require julio101290/boilerplatecompanies
 
   	composer require julio101290/boilerplatestorages
+
+	composer require julio101290/boilerplatetypesmovement
 
 ### Run command for migration and seeder
 
@@ -31,7 +33,10 @@ CodeIgniter4 Boilerplatecompanies CRUD MVC contain capture storages for inventor
 
   	php spark boilerplatestorages:installstorages
 
-# Make the Menu
+	php spark boilerplatetypesmovement:installtypesmovement
+	
+
+# Make the Menu, Example
 
 ![image](https://github.com/user-attachments/assets/ab493d62-444f-449f-8330-e87657eaa549)
 
