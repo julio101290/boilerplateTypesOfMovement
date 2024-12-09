@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplatetypesmovement\Commands;
+namespace julio101290\boilerplatesuppliers\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
 use Config\Database;
@@ -10,7 +10,7 @@ use CodeIgniter\CLI\CLI;
 /**
  * Class InstallCommand.
  */
-class InstallCommandTypesMovement extends BaseCommand
+class InstallCommandSuppliers extends BaseCommand
 {
     /**
      * The group the command is lumped under
@@ -18,28 +18,28 @@ class InstallCommandTypesMovement extends BaseCommand
      *
      * @var string
      */
-    protected $group = 'boilerplatetypesmovement';
+    protected $group = 'boilerplatetypessuppliers';
 
     /**
      * The command's name.
      *
      * @var string
      */
-    protected $name = 'boilerplatetypesmovement:installtypesmovement';
+    protected $name = 'boilerplatesuppliers:installsuppliers';
 
     /**
      * The command's short description.
      *
      * @var string
      */
-    protected $description = 'Db install for basic boilerplate types movement data.';
+    protected $description = 'Db install for basic boilerplate suppliers data.';
 
     /**
      * The command's usage.
      *
      * @var string
      */
-    protected $usage = 'boilerplatetypesmovement:installmovement';
+    protected $usage = 'boilerplatesuppliers:installsuppliers';
 
     /**
      * The commamd's argument.
@@ -72,7 +72,7 @@ class InstallCommandTypesMovement extends BaseCommand
             $this->call('migrate');
             // then seed data
             $seeder = Database::seeder();
-            $seeder->call('julio101290\boilerplatetypesmovement\Database\Seeds\BoilerplateTypesMovement');
+            $seeder->call('julio101290\boilerplatesuppliers\Database\Seeds\BoilerplateSuppliers');
         } catch (\Exception $e) {
             $this->showError($e);
         }
