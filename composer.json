@@ -36,7 +36,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "julio101290\\boilerplatesuppliers\\": "src"
+            "julio101290\\boilerplatetypesmovement\\": "src"
         }
     },
     "autoload-dev": {
