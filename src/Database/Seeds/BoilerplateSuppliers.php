@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplatetypesmovement\Database\Seeds;
+namespace julio101290\boilerplatesuppliers\Database\Seeds;
 
 use CodeIgniter\Config\Services;
 use CodeIgniter\Database\Seeder;
@@ -10,7 +10,7 @@ use Myth\Auth\Models\UserModel;
 /**
  * Class BoilerplateSeeder.
  */
-class BoilerplateTypesMovement extends Seeder {
+class BoilerplateSuppliers extends Seeder {
 
     /**
      * @var Authorize
@@ -37,10 +37,10 @@ class BoilerplateTypesMovement extends Seeder {
 
 
         // Permission
-        $this->authorize->createPermission('tipos_movimientos_inventario-permission', 'Permissions for types movement inventory');
+        $this->authorize->createPermission('proveedores-permission', 'Supplier catalog permission');
 
         // Assign Permission to user
-        $this->authorize->addPermissionToUser('tipos_movimientos_inventario-permission', 1);
+        $this->authorize->addPermissionToUser('proveedores-permission', 1);
 
     }
 
